@@ -74,7 +74,9 @@ export default class Header extends React.Component {
         <div className="uk-cover-container uk-background-secondary">
           <div className="uk-container uk-container-small uk-section">
             <div className="uk-text-center uk-text-bold">
-              <p className={titleClass}>{this.props.title}</p>
+              <p className={titleClass} style={{ whiteSpace: 'pre-line' }}>
+                {this.props.title.replace('\\n', '\n')}
+              </p>
               <span className="uk-label uk-label-primary uk-text-center uk-margin-small-bottom">
                 {this.props.journal}
               </span>

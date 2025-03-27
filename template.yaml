@@ -1,15 +1,15 @@
 theme: default # default || classic || dark
 organization: POSTECH Computational Imaging Group
 twitter: #'@'
-title: Pixel-aligned RGB-NIR Stereo Imaging and Dataset for Robot Vision
+title: Pixel-aligned RGB-NIR Stereo Imaging and Dataset\nfor Robot Vision
 journal: "CVPR'25"
 resources:
   paper: # https://openreview.net/
   arxiv: https://arxiv.org/abs/2411.18025
   code: #https://github.com/denkiwakame/academic-project-template
-  video: #https://www.youtube.com/embed/onbnb_D1wC8?si=xJczUv716Lt5aO4l&amp;start=1150
+  video: https://www.youtube.com/watch?v=KPmXeSYVFBE
   demo: #https://colab.research.google.com/
-  huggingface: #https://huggingface.co/
+  huggingface: https://huggingface.co/datasets/DivisonOfficer/Pixel-aligned_RGB-NIR_stereo_dataset
 description: academic projectpage template that supports markdown and KaTeX
 
 image: #https://denkiwakame.github.io/academic-project-template/teaser.jpg
@@ -94,15 +94,15 @@ body:
          we have implemented an NIR LED bar light source, providing consistent illumination across varying environments.</p>
       </div>
       <div class="uk-position-relative" uk-slideshow="animation: fade">
-        <div class="uk-slideshow-items" uk-margin-large>
-          <div> 
-            <img src="fig_imaging_1.png" alt="" uk-cover>
+        <div class="uk-slideshow-items" uk-margin-large >
+          <div > 
+            <img src="fig_imaging_1.png" alt="" uk-cover  style="margin-top: 2rem;">
           </div>
-          <div>
-            <img src="fig_imaging_2.png" alt="" uk-cover>
+          <div >
+            <img src="fig_imaging_2.png" alt="" uk-cover style="margin-top: 2rem;">
           </div>
-          <div>
-            <img src="fig_imaging_3.png" alt="" uk-cover>
+          <div >
+            <img src="fig_imaging_3.png" alt="" uk-cover style="margin-top: 2rem;">
           </div>
         </div>
         <div class="uk-position-top uk-position-small uk-margin-small  uk-padding-small">
@@ -123,11 +123,8 @@ body:
       for extended field deployments in data acquisitions.</p>
 
   - title: Pixel-aligned RGB-NIR Dataset
-    overlay:
-      {
-        'back': { 'type': 'video', 'url': 'dataset_indoor_1_rgb.mp4' },
-        'front': { 'type': 'video', 'url': 'dataset_indoor_1_nir.mp4' },
-      }
+  - text: |
+      ### Drag bar in the middle to compare RGB and NIR images
   - overlay:
       {
         'back': { 'type': 'video', 'url': 'dataset_indoor_2_rgb.mp4' },
@@ -143,14 +140,18 @@ body:
 
       Using our system, we collected a dataset comprising:
 
-      - **Training Data**: 39 videos totaling **73,000 frames** under various lighting conditions.
-      - **Testing Data**: 4 videos containing **7,000 frames**.
+      - **Training Data**: 80 videos totaling **90,000 frames** under various lighting conditions.
+      - **Testing Data**: 40 videos with **7,000 frames**.
 
       For each frame, we provide:
 
       - **Pixel-aligned RGB-NIR stereo images**
       - **Sparse LiDAR point clouds**
       - **Sensor timestamps**
+
+      Public access to the dataset is available on [huggingface](https://huggingface.co/datasets/DivisonOfficer/Pixel-aligned_RGB-NIR_stereo_dataset).
+
+
       ## Dataset Composition
 
       We categorize our dataset based on **lighting conditions**:
@@ -233,7 +234,7 @@ body:
         </div>
       </div>
 
-  - title: RGB-NIR Image Fusion for Stereo Depth Estimation
+  - title: RGB-NIR Image Fusion
     text: |
       <div>
         <video
@@ -553,7 +554,7 @@ body:
 projects: # relevant projects
   - title: Dual Exposure Stereo for Extended Dynamic Range 3D Imaging
     description: Juhyung Choi, Jinnyeong Kim, Seokjun Choi, Jinwoo Lee, Samuel Brucker, Mario Bijelic, Felix Heide, Seung-Hwan Baek
-    img: https://lh3.googleusercontent.com/pCJJLWqz0AuYjAeEkjEKi-HzbTcg2-Xj42T731PDfKyWwa3q-WOo08lbB3ssRJoZKB3NAW_bVJSmRm37LbMLaLq6cGq-hvOPJ2x6s-5Rkt42TKmrxDCuwisdiBqcwjUeMA=w1280
+    img: https://lh3.googleusercontent.com/huyJyvZkEUocLLj2VsMC85HN3cPmvTSbsoEc1oDVS1W8_2DIKmNkNHZzQPEokrU4pHW7tY7RZTxCL7IFUSsVsa1TbXMw_GXN3zLjdRsj2r70WjjqdEBPPz-eDgBlnZoJhQ=w1280
     journal: "CVPR'25"
     url: https://arxiv.org/abs/2412.02351
   # - title: Relevant Project II

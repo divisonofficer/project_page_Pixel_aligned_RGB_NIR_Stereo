@@ -23,7 +23,7 @@ export default class Authors extends React.Component {
                 <a target="_blank" className="uk-link-toggle" href={author.url}>
                   {author.name}
                 </a>
-                <sup>{author.affiliation.join(',')}</sup>
+                {/* <sup>{author.affiliation.join(',')}</sup> */}
               </span>
             );
           })}
@@ -35,7 +35,7 @@ export default class Authors extends React.Component {
           {this.props.affiliations.map((affiliation, idx) => {
             return (
               <span className={affiliationClass} key={'affiliation-' + idx}>
-                <sup>{idx + 1}</sup>
+                {/* <sup>{idx + 1}</sup> */}
                 {affiliation}
               </span>
             );
