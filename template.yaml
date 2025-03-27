@@ -235,6 +235,37 @@ body:
 
   - title: RGB-NIR Image Fusion for Stereo Depth Estimation
     text: |
+      <div>
+        <video
+          src="v_method_1.mp4"
+          loop
+          muted
+          uk-video="autoplay:inview"
+          />
+      </div>
+      <p>
+        We propose a novel RGB-NIR image fusion method for 3 channel vision tasks.
+        This fusion method eccelarates the performance of the pretrained vision models such as stereo depth, semantic segmentation, and object detection.
+          
+      </p>
+
+  - title: RGB-NIR Feature Fusion for Stereo Depth Estimation
+    text: |
+      <div>
+        <video
+          src="v_method_2.mp4"
+          loop
+          muted
+          uk-video="autoplay:inview"
+          />
+      </div>
+      <p>
+        We estimate a series of disparity maps using the GRU structure of the RAFT-Stereo network. 
+        We alternate between the fused and NIR correlation volumes, as input to the GRU at each iteration.
+        Our scenario reflect RGB with active illumination, which intends use NIR mainly to restore stereo depth and RGB compensates NIR images
+      </p>
+  - title: Depth Estimation Results
+    text: |
       <div uk-slider>
         <div class="uk-slider-items uk-child-width-1-1 uk-child-width-1-1@m uk-grid">
           <div>
