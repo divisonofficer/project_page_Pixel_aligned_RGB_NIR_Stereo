@@ -6,7 +6,7 @@ journal: "CVPR'25"
 resources:
   paper: # https://openreview.net/
   arxiv: https://arxiv.org/abs/2411.18025
-  code: #https://github.com/denkiwakame/academic-project-template
+  code: https://github.com/divisonofficer/cvpr5308
   video: https://www.youtube.com/watch?v=KPmXeSYVFBE
   demo: #https://colab.research.google.com/
   huggingface: https://huggingface.co/datasets/DivisonOfficer/Pixel-aligned_RGB-NIR_stereo_dataset
