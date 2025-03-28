@@ -6,7 +6,7 @@ journal: "CVPR'25"
 resources:
   paper: # https://openreview.net/
   arxiv: https://arxiv.org/abs/2411.18025
-  code: https://github.com/divisonofficer/cvpr5308
+  code: https://github.com/divisonofficer/Pixel_aligned_RGB_NIR_Stereo
   video: https://www.youtube.com/watch?v=KPmXeSYVFBE
   demo: #https://colab.research.google.com/
   huggingface: https://huggingface.co/datasets/DivisonOfficer/Pixel-aligned_RGB-NIR_stereo_dataset
@@ -122,7 +122,7 @@ body:
       allowing for continuous operation for up to six hours, making it suitable 
       for extended field deployments in data acquisitions.</p>
 
-  - title: Pixel-aligned RGB-NIR Dataset
+  - title: Pixel-aligned RGB-NIR Stereo Dataset
   - text: |
       ### Drag bar in the middle to compare RGB and NIR images
   - overlay:
