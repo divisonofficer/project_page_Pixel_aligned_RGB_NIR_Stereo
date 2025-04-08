@@ -554,7 +554,7 @@ body:
 projects: # relevant projects
   - title: Dual Exposure Stereo for Extended Dynamic Range 3D Imaging
     description: Juhyung Choi, Jinnyeong Kim, Seokjun Choi, Jinwoo Lee, Samuel Brucker, Mario Bijelic, Felix Heide, Seung-Hwan Baek
-    img: https://lh3.googleusercontent.com/huyJyvZkEUocLLj2VsMC85HN3cPmvTSbsoEc1oDVS1W8_2DIKmNkNHZzQPEokrU4pHW7tY7RZTxCL7IFUSsVsa1TbXMw_GXN3zLjdRsj2r70WjjqdEBPPz-eDgBlnZoJhQ=w1280
+    img: thumb_2025ae.png
     journal: "CVPR'25"
     url: https://arxiv.org/abs/2412.02351
   # - title: Relevant Project II
