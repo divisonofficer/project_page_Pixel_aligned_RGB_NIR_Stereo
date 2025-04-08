@@ -198,9 +198,11 @@ const SplitOverlay = ({ overlay }) => {
       ref={containerRef}
       className="uk-position-relative uk-margin uk-padding" // UIkit 클래스 예시
       style={{
-        width: '800px', // 필요에 따라 조절
-        height: '450px', // 필요에 따라 조절
+        width: '85%', // 필요에 따라 조절
+        height: 'auto', // aspect ratio 4:3
+        paddingBottom: '63%', // 4:3 비율 (3/4 = 0.75 = 75%)
         overflow: 'hidden', // 겹친 부분 잘라내기
+        position: 'relative', // 자식 요소의 absolute positioning을 위해
       }}
       onMouseDown={(e) => e.preventDefault()} // 드래그 select 방지
       onTouchStart={(e) => e.preventDefault()}
